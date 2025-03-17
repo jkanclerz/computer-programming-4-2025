@@ -1,4 +1,4 @@
-# E-Commerce Project - Programming Workshop IV
+# E-Commerce Project - Computer Programming IV
 
 Welcome to the E-Commerce project developed as part of the Programming Workshop IV course conducted at Cracow University of Economic! 
 This project aims to provide you with hands-on experience in 
