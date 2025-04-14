@@ -1,11 +1,11 @@
 package pl.jkanclerz.ecommerce.catalog;
 
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
-import static org.assertj.core.api.Assertions.*;
 
 import java.math.BigDecimal;
 import java.util.List;
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class ProductCatalogTest {
 
@@ -53,6 +53,6 @@ public class ProductCatalogTest {
     }
 
     private static ProductCatalog thereIsProductCatalog() {
-        return new ProductCatalog();
+        return new ProductCatalog(new ArrayListProductStorage());
     }
 }
