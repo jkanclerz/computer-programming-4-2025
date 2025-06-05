@@ -1,4 +1,4 @@
-package pl.jkanclerz.sales;
+package pl.jkanclerz.ecommerce.sales;
 
 import org.junit.jupiter.api.Test;
 import pl.jkanclerz.ecommerce.sales.Offer;
