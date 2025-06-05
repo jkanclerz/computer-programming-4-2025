@@ -13,15 +13,4 @@ public class App {
         System.out.println("Hello Spring");
         SpringApplication.run(App.class, args);
     }
-
-    @Bean
-    ProductCatalog createMyCatalog() {
-        ProductCatalog productCatalog = new ProductCatalog(new ArrayListProductStorage());
-
-        productCatalog.addProduct("Nice One 1", "nice product");
-        productCatalog.addProduct("Nice One 2", "nice product");
-        productCatalog.addProduct("Nice One 3", "nice product");
-
-        return productCatalog;
-    }
 }
